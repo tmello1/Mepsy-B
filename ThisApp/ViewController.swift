@@ -80,7 +80,7 @@ class ViewController: UIViewController , CLLocationManagerDelegate{
             }
             
             let musRequest = MKLocalSearch.Request()
-            musRequest.naturalLanguageQuery = "museumb"
+            musRequest.naturalLanguageQuery = "museum"
             musRequest.region = MKCoordinateRegion(center: coordinates, latitudinalMeters: 5000, longitudinalMeters: 5000)
                         
             let musSearch = MKLocalSearch(request: musRequest)
